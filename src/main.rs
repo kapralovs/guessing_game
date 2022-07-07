@@ -20,7 +20,10 @@ fn main() {
             Ok(num)=>num,
             Err(_)=>continue,
         };
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5493a14 (Fix)
         println!("Вы загадали {}", guess);
 
         match guess.cmp(&secret_number) {
@@ -29,7 +32,11 @@ fn main() {
             Ordering::Equal => {
                 println!("Вы выиграли!");
                 break;
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> 5493a14 (Fix)
         }
     }
 }
